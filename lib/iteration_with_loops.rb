@@ -9,6 +9,7 @@ def join_nested_strings(src)
       big_string = big_string + src[row_index][element_index].to_s
       element_index = element_index + 1
     end
-  row_index = row_index + 1
+    row_index = row_index + 1
   end
+  big_string
 end
